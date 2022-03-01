@@ -1,0 +1,11 @@
+div {
+    margin-left: 2rem;
+}
+
+.odd-div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

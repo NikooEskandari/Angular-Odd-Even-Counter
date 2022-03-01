@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'game-practice';
+  countingNumbersElement = {countingNumbers: []};
+
+  onCountNumbers(event){
+    this.countingNumbersElement.countingNumbers = event.countingNumbers;
+  }
 }

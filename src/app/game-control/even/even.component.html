@@ -1,0 +1,6 @@
+<div class="col-sm-3 even-div">
+    <div class="row" *ngFor="let countingNumber of countingNumbersElement.countingNumbers">
+        <p *ngIf="isEven(countingNumber)">{{countingNumber}} is Even</p>
+    </div>
+</div>
+

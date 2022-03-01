@@ -1,0 +1,6 @@
+<div class="col-sm-3 odd-div">
+    <div class="row" *ngFor="let countingNumber of countingNumbersElement.countingNumbers">
+        <p *ngIf="isOdd(countingNumber)">{{countingNumber}} is Odd</p>
+    </div>
+</div>
+

@@ -1,0 +1,15 @@
+<div class="col-sm-1">
+    <div class="row d-flex p-2">
+        <button class="btn btn-success" (click)="SetCounter()" type="button"> Start </button>
+    </div>
+
+    <div class="row d-flex p-2">
+        <button class="btn btn-danger" (click)="ClearCounter()" type="button"> Stop </button>
+    </div>
+</div>
+
+<div class="col-sm-3 incremental-div">
+    <div class="row" *ngFor="let countingNumber of countingNumbers">
+        <p>{{countingNumber}}</p>
+    </div>
+</div>
